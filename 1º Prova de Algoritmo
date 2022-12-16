@@ -1,0 +1,69 @@
+algoritmo
+ 	declare f1, f2 literal
+ 	nht1, ndp1, salE, ins1, ir1, salba1, salbb1, salbt1, salf1, mds1 numerico
+ 	nht2, ndp2, ins2, ir2, salba2, salbb2, salbt2, salf2, mds2 numerico
+ 	medaa, medbb, medt, medf numerico
+ 	
+escreva "Qual o nome do 1º funcionario?"
+	leia f1
+escreva "Qual o número de dependentes do 1º funcionario?"
+	leia ndp1
+escreva "Qual o numero de turnos (8 horas) que trabalhou?"
+	leia nht1
+
+		salE <- 80
+		ndp1 <- 40
+		salba1 <- nht1 * salE
+		salbb1 <- nht1 * ndp1
+		salbt1 <- salba1 + salbb1
+		ins1 <- salbt1 * 0.085
+		ir1 <- salbt1 * 0.05
+		salf1 <- salbt1 - ins1 - ir1
+		mds1 <- (salba1 + salbb1 + salf1 + salbt1) / 4
+escreva f1
+
+escreva "Este é o salario do item A:", salba1
+escreva "Este é o salario do item B:", salbb1
+escreva "Este é o salario bruto total (sem descontos):", salbt1
+escreva "Este é o salario final (descontos inclusos):", salf1
+escreva "Este foi o desconto para o INSS:", ins1
+escreva "Este foi o desconto para o IR:", ir1
+escreva "Esta é a media de todos os salarios:", mds1
+escreva "=============================================================="
+escreva "Qual o nome do 2º funcionario?"
+	leia f2
+escreva "Qual o número de dependentes do 2º funcionario?"
+	leia ndp2
+escreva "Qual o numero de turnos (8 horas) que trabalhou?"
+	leia nht2
+
+		salE <- 80
+		ndp2 <- 40
+		salba2 <- nht2 * salE
+		salbb2 <- nht2 * ndp2
+		salbt2 <- salba2 + salbb2
+		ins2 <- salbt2 * 0.085
+		ir2 <- salbt2 * 0.05
+		salf2 <- salbt1 - ins1 - ir1
+		mds2 <- (salba2 + salbb2 + salf2 + salbt2) / 4
+escreva f2
+
+escreva "Este é o salario do item A:", salba2
+escreva "Este é o salario do item B:", salbb2
+escreva "Este é o salario bruto total (sem descontos):", salbt2
+escreva "Este é o salario final (descontos inclusos):", salf2
+escreva "Este foi o desconto para o INSS:", ins2
+escreva "Este foi o desconto para o IR:", ir2
+escreva "Esta é a media de todos os salarios:", mds2
+escreva "=============================================================="
+		medaa <- (salba1 + salba2) / 2
+		medbb <- (salbb1 + salbb2) / 2
+		medt <- (salbt1 + salbt2) / 2
+		medf <- (salf1 + salf2) / 2
+
+escreva "Esta é a media do item A dos dois funcionarios:", medaa
+escreva "Esta é a media do item B dos dois funcionarios:", medbb
+escreva "Esta é a media do salario bruto total (sem descontos) dos dois funcionarios:", medt
+escreva "Esta é a media do salario final (descontos inclusos) dos dois funcionarios:", medf
+
+fim_algoritmo
