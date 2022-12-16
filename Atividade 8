@@ -1,0 +1,12 @@
+algoritmo
+ 	declare pskg, psg, psa numerico
+
+escreva "Digite seu peso atual:"
+	leia psa
+
+		psg <- 1000
+		pskg <- psa * psg
+		
+escreva "seu peso em gramas é", pskg 
+
+fim_algoritmo
