@@ -1,0 +1,11 @@
+algoritmo
+	declare n1, n2, n3, m numerico
+
+escreva "Digite dois números para multiplica-los"
+	leia n1
+	leia n2
+	leia n3
+		m <- (n1 * n2) * n3
+escreva "->>", m
+	
+fim_algoritmo
