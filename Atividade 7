@@ -1,0 +1,16 @@
+algoritmo
+ 	declare ps, ps15, ps20, psa15, psa20 numerico
+ 	 	   mais, menos literal
+
+escreva "Qual o seu peso atual?"
+	leia ps
+
+		ps15 <- ps * 0.15
+		psa15 <- ps + ps15
+		ps20 <- ps * 0.20
+		psa20 <- ps - ps20
+
+escreva "Se você engordar 15% do seu peso atual o peso sera de ->>", psa15, "Kg"
+escreva "Se você emagrecer 20% do seu peso atual o peso sera de ->>", psa20, "kg"
+
+fim_algoritmo
