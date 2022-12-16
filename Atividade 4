@@ -1,0 +1,14 @@
+algoritmo
+	declare nt1, nt2, mp0, mp1, ps1, ps2, mp numerico
+
+escreva "Digite suas duas notas"
+	leia nt1
+	leia nt2
+		ps1 <- 2
+		ps2 <- 3
+		mp0 <- (nt1 * ps1) + (nt2 * ps2)
+		mp1 <- ps1 + ps2
+		mp <- mp0 / mp1
+escreva "->>", mp
+
+fim_algoritmo
