@@ -1,0 +1,14 @@
+algoritmo
+	declare nt1, nt2, mp1, mp2, ps1, ps2, mp numerico
+
+escreva "Escreva suas duas notas para ver a media ponderada:"
+	leia nt1
+	leia nt2
+		ps1 <- 2
+		ps2 <- 3
+		mp1 <- (nt1 * ps1) + (nt2 * ps2)
+		mp2 <- ps2 + ps2
+		mp <- mp1 / mp2
+escreva "->>", mp
+	
+fim_algoritmo
