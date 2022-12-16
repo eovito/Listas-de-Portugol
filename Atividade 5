@@ -1,0 +1,13 @@
+algoritmo
+	declare p literal
+	pr, np, dsc numerico
+
+escreva "Qual produto esta buscando?"
+	leia p
+escreva "Qual o preço deste produto?"
+	leia pr
+		dsc <- pr * 0.1
+		np <- pr - dsc
+escreva "O produto que estava", pr, "esta saindo por", np
+
+fim_algoritmo
