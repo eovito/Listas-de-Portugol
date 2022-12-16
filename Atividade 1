@@ -1,5 +1,6 @@
+//1)FUAQ receba dois números calcule e mostre a subtração do primeiro pelo segundo.
 algoritmo
-	declare n1, n2, s numerico
+	declare n1, n2, s numeric
 
 escreva "Digite dois números para subtrai-los"
 	leia n1
