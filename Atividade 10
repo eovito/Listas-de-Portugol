@@ -1,0 +1,9 @@
+algoritmo
+ 	 declare a, l numerico
+ escreva "Informe o tamanho do lado do quadrado:"
+	leia l
+
+		a <- l * l
+escreva "A area do quadrado é ->>", a
+ 	 
+fim_algoritmo
