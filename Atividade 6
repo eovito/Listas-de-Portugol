@@ -1,0 +1,21 @@
+algoritmo
+ 	declare fun literal
+ 	salfx, salf, sal4, salv, qtdv numerico
+
+ 	
+ escreva "Qual é o nome do funcionario?"
+ 	leia fun
+ escreva "Qual o salario fixo do funcionario?"
+ 	leia salfx
+ escreva "Qual o valor das suas vendas?"
+ 	leia salv
+ escreva "Quantas vendas forma feitas?"
+ 	leia qtdv
+
+		sal4 <- salv * 0.04
+ 		salf <- salfx + sal4
+ 		
+ escreva "Este sera o salario final (com comissão de 4%) do funcionario->>", fun, "->> R$" , salf
+ escreva "Esta sera a comissão somada ao salario fixo (+ 4% por venda)->>", sal4
+ 
+fim_algoritmo
